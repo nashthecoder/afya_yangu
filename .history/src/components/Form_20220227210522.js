@@ -1,0 +1,108 @@
+import React from 'react'
+
+const Form = () => {
+    return (
+        <>
+        <section>
+            <div className="container">
+                <div className="row">
+                <div className="col-lg-7 offset-lg-2 g-0 mx-auto">
+                    <div className="fill-form form-box">
+                            <div className="form-box__content">
+                            <div id="box-title">
+                                <p className="main-form-text">Daily Stats</p>
+                            </div>
+                            <div className="top-container row-cols-2">
+                                <label for="date">Date:</label>
+                                <input className="col-6" type="date" id="date" name="date" />
+                                <label for="test">Select a time:</label>
+                                <input className="col-6" type="time" id="test" name="test"></input>
+                            </div>
+                            <form>
+                                <div className="mt-3">
+                                <label for="date">Pulse rate:</label>
+                                <input
+                                    className="form-control"
+                                    id="pulse-rate"
+                                    name="pulse-rate"
+                                    placeholder='000'
+                                    type="number"
+                                />
+                                </div>
+                                <div className="mt-3">
+                                    <label for="date">Systolic rate</label>
+                                    <input
+                                        class="form-control"
+                                        id="systolic-number"
+                                        name="systolic-number"
+                                        placeholder='000'
+                                        type="number"
+                                    />
+                                </div>
+                                <div className="mt-3">
+                                    <label for="date">Diastolic rate:</label>
+                                    <input
+                                        className="form-control"
+                                        id="diastolic-number"
+                                        name="diastolic-number"
+                                        placeholder='000'
+                                        type="number"
+                                    />
+                                </div>
+                                <div className="mt-3">
+                                    <label for="date">Blood sugar level:</label>
+                                    <input
+                                        class="form-control"
+                                        id="bloodSugar-level"
+                                        name="bloodSugar-level"
+                                        type="number"
+                                        step='0.1' value='0.0' 
+                                        placeholder='0.00'
+                                    />
+                                </div>
+                                <div className="d-grid mt-4">
+                                <div class="container">
+                                    <div class="row row-cols-2">
+                                        <div class="col">
+                                            <button class="btn btn-primary btn-lg" type="submit" value="Send Now">
+                                                <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="27"
+                                                height="27"
+                                                fill="currentColor"
+                                                class="bi bi-mailbox2"
+                                                viewBox="0 0 16 16"
+                                                >
+                                                </svg>{" "}
+                                                Save
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <button class="btn btn-primary btn-lg" type="submit" value="Send Now">
+                                                <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="27"
+                                                height="27"
+                                                fill="currentColor"
+                                                class="bi bi-mailbox2"
+                                                viewBox="0 0 16 16"
+                                                >
+                                                </svg>{" "}
+                                                View
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        </>
+    )
+}
+
+export default Form
