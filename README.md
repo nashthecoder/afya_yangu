@@ -1,8 +1,8 @@
 # Afya Yangu
 
-## MVP to record and track my health data.
+## MVP to record and track my health data. Built with ReactJS and Bootstrap 5.
 
-![Wireframe](images/afya_yangu.png) 
+![Wireframe](./images/app_wireframes.png) 
 
 The app will allow the user to 
 * input data
