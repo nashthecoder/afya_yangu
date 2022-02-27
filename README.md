@@ -2,7 +2,7 @@
 
 ## MVP to record and track my health data.
 
-![Wireframe](images/afya_yangu) 
+![Wireframe](images/afya_yangu.png) 
 
 The app will allow the user to 
 * input data
