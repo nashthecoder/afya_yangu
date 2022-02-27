@@ -2,7 +2,7 @@
 
 ## MVP to record and track my health data. Built with ReactJS and Bootstrap 5.
 
-![Wireframe](./images/app_wireframes.png) 
+![Wireframe](//images/app_wireframe.png) 
 
 The app will allow the user to 
 * input data
