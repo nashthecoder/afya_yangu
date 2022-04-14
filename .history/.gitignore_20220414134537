@@ -1,0 +1,16 @@
+# Dependencies
+
+/node_modules
+.evn
+/.pnp
+.pnp.js
+package-lock.json
+# Testing
+
+/coverage
+# Production
+
+/build
+# Misc
+
+npm-debug.log*
