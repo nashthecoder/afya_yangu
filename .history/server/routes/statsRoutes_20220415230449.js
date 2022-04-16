@@ -1,0 +1,26 @@
+const express = require('express');
+const router = express.Router();
+const {getStats,
+        addStats,
+        updateStats,
+        deleteStats,
+} = require('../controllers/statsController');
+
+//GET
+router.route('/').get(getStats).post(addStats)
+//GET
+router.get('/', getStats);
+
+
+//POST
+router.post('/', addStats);
+
+
+//UPDATE
+router.put('/:id', updateStats);
+
+//DELETE 
+router.delete('/:id', deleteStats);
+
+
+module.exports = router;
